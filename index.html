@@ -1,47 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Students Giving — Clean Water Is a Right</title>
+  <meta name="description" content="Fast, transparent giving for students who want to change the world—$10 funds clean water for one person, for a year. Join the movement today." />
+  <!-- Link to the CSS file for styling -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <!-- Header section -->
+  <header class="site-header" aria-label="Site header">
+    <div class="container bar">
+      <div class="logo-wrap" aria-label="charity: water">
+        <!-- Logo image -->
+        <img class="logo-img" src="img/Charity Water.png" alt="charity: water logo" />
+        <span class="brand-text">Students Giving</span>
+      </div>
+      <!-- Navigation with donate button -->
+      <nav aria-label="Primary">
+        <a href="#donate" class="primary-btn">Donate $10 Now</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+  <!-- Hero section with image and main message -->
+  <section class="hero-nocrop">
+    <div class="container">
+      <!-- Hero image floated left and double size -->
+      <div class="hero-img-wrap" style="float:left; width:48%; text-align:center;">
+        <img class="hero-img hero-img-double" src="img/CW19.jpg" alt="Smiling young woman holds a glass of clean water at sunset" />
+      </div>
+      <!-- Hero text floated right -->
+      <div class="hero-copy" style="float:right; width:48%;">
+        <div class="eyebrow">For students who care about impact</div>
+        <h1>Turn Your Beliefs Into Action.</h1>
+        <p><strong>With just $10, you can give someone clean water for a year. Fast. Easy. Transparent.</strong></p>
+        <div class="cta-row">
+          <a href="#donate" class="primary-btn">Donate $10 Now</a>
+          <a href="#fundraise" class="secondary-link">Start a Campus Fundraiser</a>
         </div>
+        <small>100% of your donation helps fund clean water projects.</small>
+      </div>
+      <!-- Clear floats so next content starts below -->
+      <div style="clear:both;"></div>
+    </div>
+  </section>
+
+  <!-- Main content starts here -->
+  <main id="main">
+    <!-- Why Water section -->
+    <section class="section alt" aria-labelledby="why-water">
+      <div class="container">
+        <h2 id="why-water">Why Water Matters</h2>
+        <div class="grid-3">
+          <div class="card">
+            <div class="stat">771M</div>
+            <p>people still lack access to clean water.</p>
+          </div>
+          <div class="card">
+            <div class="stat">Health</div>
+            <p>Clean water reduces illness and preventable disease, improving everyday life.</p>
+          </div>
+          <div class="card">
+            <div class="stat">Opportunity</div>
+            <p>Students can attend school and families can work when water is close and safe.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <!-- Why Students section -->
+    <section class="section" aria-labelledby="why-students">
+      <div class="container">
+        <h2 id="why-students">Why Students Matter</h2>
+        <p><strong>Your generation can solve this crisis.</strong> With just <strong>$10</strong>, you can give clean water to <strong>one person for a year</strong>.</p>
+      </div>
     </section>
+
+    <!-- How It Works section -->
+    <section class="section alt" aria-labelledby="how-it-works">
+      <div class="container">
+        <h2 id="how-it-works">How It Works</h2>
+        <div class="hiw-steps">
+          <div class="hiw-step">
+            <h3><span class="num">1</span>You Give</h3>
+            <p>Mobile-friendly donation with Apple Pay, Venmo, or card in seconds.</p>
+          </div>
+          <div class="hiw-step">
+            <h3><span class="num">2</span>We Build</h3>
+            <p>100% of your money helps fund sustainable clean water projects.</p>
+          </div>
+          <div class="hiw-step">
+            <h3><span class="num">3</span>You See</h3>
+            <p>GPS-tracked updates and impact reports show your donation at work.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Stories section -->
+    <section class="section" aria-labelledby="impact-stories">
+      <div class="container">
+        <h2 id="impact-stories">Impact Stories</h2>
+        <div class="grid-3">
+          <div class="quote">
+            <p>“I gave $20 after class. Knowing two people now have clean water? That’s real impact.”</p>
+            <cite>— Jordan, UCLA</cite>
+          </div>
+          <div class="quote">
+            <p>“Now I can go to school instead of walking for water.”</p>
+            <cite>— Amina, Age 12</cite>
+          </div>
+          <div class="quote">
+            <p>“Fast, easy, and transparent—this made giving feel meaningful.”</p>
+            <cite>— Alex, Student</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transparency section -->
+    <section class="section alt" aria-labelledby="transparency">
+      <div class="container">
+        <h2 id="transparency">Know Where Every Dollar Goes</h2>
+        <p>We share clear project updates and outcomes so you can see your impact. Small donations add up fast—every dollar fuels change.</p>
+      </div>
+    </section>
+
+    <!-- Donate Call To Action section -->
+    <section class="section" id="donate" aria-label="Donate call to action">
+      <div class="container center">
+        <h2>One Click. Lifelong Change.</h2>
+        <p>Your <strong>$10</strong> = Clean water for <strong>one person</strong>.</p>
+        <a href="#" class="primary-btn" aria-label="Donate ten dollars now">Donate $10 Now</a>
+        <p class="mt-12"><a id="fundraise" class="secondary-link" href="#">Start a Campus Fundraiser</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer aria-label="Footer">
+    <div class="container cols">
+      <p>&copy; <span id="y"></span> charity: water — Students Giving Landing Page (Class Project). For educational use.</p>
+      <nav><a href="#" class="secondary-link">Privacy</a> &nbsp;•&nbsp; <a class="secondary-link" href="#">Contact</a></nav>
+    </div>
+  </footer>
+
+  <!-- Script to show the current year in the footer -->
+  <script>
+    // Set current year
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
